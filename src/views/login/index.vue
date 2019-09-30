@@ -9,7 +9,7 @@
         <div style="text-align: center">
           <svg-icon icon-class="login-mall" style="width: 56px;height: 56px;color: #409EFF"></svg-icon>
         </div>
-        <h2 class="login-title color-main">mall-admin-web</h2>
+        <h2 class="login-title color-main">beautiful buy</h2>
         <el-form-item prop="username">
           <el-input name="username"
                     type="text"
@@ -44,7 +44,7 @@
       </el-form>
     </el-card>
     <img :src="login_center_bg" class="login-center-layout">
-    <el-dialog
+    <!-- <el-dialog
       title="公众号二维码"
       :visible.sync="dialogVisible"
       :show-close="false"
@@ -57,7 +57,7 @@
       <span slot="footer" class="dialog-footer">
     <el-button type="primary" @click="dialogConfirm">确定</el-button>
       </span>
-    </el-dialog>
+    </el-dialog> -->
   </div>
 </template>
 
